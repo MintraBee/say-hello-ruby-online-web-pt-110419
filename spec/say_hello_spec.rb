@@ -5,7 +5,7 @@ describe "say_hello" do
     puts "Hello #{name}!"
   end
   
-  say_hello("Grabiela")
+  name("Grabiela")
   
   it 'accepts an argument of a name and prints out Hello with that Name' do
     expect($stdout).to receive(:puts).with("Hello Kent Beck!")
